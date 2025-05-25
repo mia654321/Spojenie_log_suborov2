@@ -1,0 +1,90 @@
+12-23:59.972  configuration for relay
+12-24:03.076  ---changing status from <KnxConnection.disconnected: 0> to <KnxConnection.connected: 2>
+12:24:03.076  -------powerup-------
+12:24:03.076  NOT sending periodic LteInfoReport, PID.DEV_IDENT_AUTO_SEND is disabled
+12:24:22.760  ===changing addr to 0.2.250===
+12:24:22.796  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=0, Prop=246, Count=1, Start=1) #DEV_TYPE_ID
+12:24:22.933  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=9, Prop=91, Count=1, Start=1) #PID_VERSION_ARRAY
+12:24:23.062  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=0, Prop=12, Count=1, Start=1) #MANUFACTURER_ID
+12:24:23.189  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=0, Prop=15, Count=1, Start=1) #ORDER_INFO
+12:24:23.331  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=242, Count=1, Start=1, Data=[1]) #DEV_IDENT_AUTO_SEND
+12:25:11.601  -------restart with <EreaseCode.FACTORYRESET_WOIA: 7> ---- 
+12:25:11.602  -------powerup-------
+12:25:11.602  NOT sending periodic LteInfoReport, PID.DEV_IDENT_AUTO_SEND is disabled
+12:25:51.628  LteInfoReport sent (triggered by LteWrite) 
+12:26:10.946  ============running test003   assign relay1 to rl_512_1 ==============
+12:26:28.288  ============running test004   assign relay2 to rl_512_2 ==============
+12:26:29.498  ====start assigment to BaPrphDev<, RL512/23 - JB512C23_2'PrphDev_1, , PL-1:DL=2;, device_not_assigned>====
+12:26:29.498  set prgmode True
+12:26:32.646  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=54, Count=1, Start=1, Data=[0]) #PROG_MODE
+12:26:33.663  -------restart with <EreaseCode.FACTORYRESET_WOIA: 7> ---- 
+12:26:33.664  -------powerup-------
+12:26:33.665  NOT sending periodic LteInfoReport, PID.DEV_IDENT_AUTO_SEND is disabled
+12:26:39.612  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=4, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:26:39.804  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=1, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:26:39.998  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=2, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:26:40.189  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=3, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:26:40.380  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=4, Prop=5, Count=1, Start=1, Data=[1,0,0,0,0,0,0,0,0,0]) # [<LoadState.loading: 2>]
+12:26:40.551  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=240, Count=1, Start=1, Data=[1]) #LTE_ENABLE
+12:26:40.683  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=242, Count=1, Start=1, Data=[1]) #DEV_IDENT_AUTO_SEND
+12:26:40.818  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=19, Prop=111, Count=1, Start=1, Data=[1,0xA1]) #
+12:26:40.960  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=101, Count=1, Start=1, Data=[1,4]) #Apartment Z8Status(,,,,)
+12:26:41.100  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=102, Count=1, Start=1, Data=[2,4]) #Room Z8Status(,,,,)
+12:26:41.241  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=103, Count=1, Start=1, Data=[2,4]) #Subzone Z8Status(,,,,)
+12:26:41.380  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=110, Count=1, Start=1, Data=[2]) #
+12:26:41.512  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=111, Count=1, Start=1, Data=[1]) #
+12:26:41.648  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=113, Count=1, Start=1, Data=[0,0]) #
+12:26:41.790  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=114, Count=1, Start=1, Data=[0,0]) #
+12:26:41.929  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=120, Count=1, Start=1, Data=[0]) #
+12:26:42.060  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=126, Count=1, Start=1, Data=[0]) #
+12:26:42.216  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=4, Prop=5, Count=1, Start=1, Data=[2,0,0,0,0,0,0,0,0,0]) # [<LoadState.loaded: 1>]
+12:26:42.373  -------restart-------
+12:26:42.374  -------powerup-------
+12:26:42.377  LteInfoReport periodic sent
+12:26:46.508  ============running test005   up220 assigment==============
+12:27:07.541  ============running test007   try assign relay to up220==============
+12:27:11.970  ============running test009a   if two devices (relay1&2) are in programming mode, assigment shall fail==============
+12:27:13.067  set prgmode True
+12:27:13.250  ====start assigment to BaPrphDev<0.2.249, RL512/23 - JB512C23_1'PrphDev_1, 000000000001, PL-1:DL=1;, operational>====
+12:27:13.920  set prgmode False
+12:27:14.225  ============running test009b   if no device is in programming mode, assigment shall fail==============
+12:27:14.420  ====start assigment to BaPrphDev<0.2.249, RL512/23 - JB512C23_1'PrphDev_1, 000000000001, PL-1:DL=1;, operational>====
+12:27:14.421  set prgmode True
+12:27:17.761  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=54, Count=1, Start=1, Data=[0]) #PROG_MODE
+12:27:18.668  -------restart with <EreaseCode.FACTORYRESET_WOIA: 7> ---- 
+12:27:18.669  -------powerup-------
+12:27:18.670  NOT sending periodic LteInfoReport, PID.DEV_IDENT_AUTO_SEND is disabled
+12:27:24.619  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=4, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:27:24.816  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=1, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:27:25.007  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=2, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:27:25.198  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=3, Prop=5, Count=1, Start=1, Data=[4,0,0,0,0,0,0,0,0,0]) # [<LoadState.unloaded: 0>]
+12:27:25.390  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=4, Prop=5, Count=1, Start=1, Data=[1,0,0,0,0,0,0,0,0,0]) # [<LoadState.loading: 2>]
+12:27:25.561  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=240, Count=1, Start=1, Data=[1]) #LTE_ENABLE
+12:27:25.694  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=242, Count=1, Start=1, Data=[1]) #DEV_IDENT_AUTO_SEND
+12:27:25.829  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=19, Prop=111, Count=1, Start=1, Data=[1,0xA1]) #
+12:27:25.970  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=101, Count=1, Start=1, Data=[1,4]) #Apartment Z8Status(,,,,)
+12:27:26.112  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=102, Count=1, Start=1, Data=[1,4]) #Room Z8Status(,,,,)
+12:27:26.252  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=103, Count=1, Start=1, Data=[2,4]) #Subzone Z8Status(,,,,)
+12:27:26.390  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=110, Count=1, Start=1, Data=[2]) #
+12:27:26.523  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=111, Count=1, Start=1, Data=[1]) #
+12:27:26.659  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=113, Count=1, Start=1, Data=[0,0]) #
+12:27:26.801  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=114, Count=1, Start=1, Data=[0,0]) #
+12:27:26.938  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=120, Count=1, Start=1, Data=[0]) #
+12:27:27.071  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=11, Prop=126, Count=1, Start=1, Data=[0]) #
+12:27:27.227  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=4, Prop=5, Count=1, Start=1, Data=[2,0,0,0,0,0,0,0,0,0]) # [<LoadState.loaded: 1>]
+12:27:27.385  -------restart-------
+12:27:27.386  -------powerup-------
+12:27:27.389  LteInfoReport periodic sent
+12:27:30.292  ============running test009c   assigment to incompatible device shall fail==============
+12:27:31.039  ============running test010   unconnect both relays, both shall be missing after one hour==============
+12:27:48.761  ============running test011   connect relay3, shall be not assigned==============
+12:28:22.724  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=0, Prop=246, Count=1, Start=1) #DEV_TYPE_ID
+12:28:22.858  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=9, Prop=91, Count=1, Start=1) #PID_VERSION_ARRAY
+12:28:22.989  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=0, Prop=12, Count=1, Start=1) #MANUFACTURER_ID
+12:28:23.115  PropertyValueRead(src='0.2.251', dest='0.2.250', Obj=0, Prop=15, Count=1, Start=1) #ORDER_INFO
+12:28:23.259  PropertyValueWrite(src='0.2.251', dest='0.2.250', Obj=0, Prop=242, Count=1, Start=1, Data=[1]) #DEV_IDENT_AUTO_SEND
+12:29:04.594  -------restart with <EreaseCode.FACTORYRESET_WOIA: 7> ---- 
+12:29:04.595  -------powerup-------
+12:29:04.596  NOT sending periodic LteInfoReport, PID.DEV_IDENT_AUTO_SEND is disabled
+12:29:51.667  LteInfoReport sent (triggered by LteWrite) 
+12:30:51.663  LteInfoReport sent (triggered by LteWrite) 
