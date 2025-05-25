@@ -1,5 +1,5 @@
 import unittest
-from Uloha2 import split_line_to_time_and_text
+from Uloha2 import split_line_to_time_and_text, TIME_PATTERN
 
 
 class TestCaseSplitLineToTimeAndText(unittest.TestCase):
@@ -25,6 +25,14 @@ class TestCaseSplitLineToTimeAndText(unittest.TestCase):
         self.assertEqual(time, "12:34:56")
         self.assertEqual(text, "configuration for relay")
 
+    def test_time_pattern_valid(self):
+        valid_times = ["00:00:00", "12:34:56", "23:59:59.123", "01:02:03.0001"]
+        for t in valid_times:
+            self.assertTrue(TIME_PATTERN.match(t), f"{t} should be valid")
 
+    def test_time_pattern_invalid(self):
+        invalid_times = ["12-34:56", "99:99", "abcd", "123456"]
+        for t in invalid_times:
+            self.assertFalse(TIME_PATTERN.match(t), f"{t} should be invalid")
 if __name__ == '__main__':
     unittest.main()
