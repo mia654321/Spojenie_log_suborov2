@@ -26,5 +26,8 @@ class MyTestCase(unittest.TestCase):
         # pridám status
         self.assertEqual(interfaces[0].find('status').text, 'enabled')
 
+        # zmením status
+        self.assertEqual(interfaces[1].find('status').text, 'enabled')
+
 if __name__ == '__main__':
     unittest.main()
