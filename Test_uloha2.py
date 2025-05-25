@@ -18,6 +18,13 @@ class TestCaseSplitLineToTimeAndText(unittest.TestCase):
         self.assertEqual(time, "12:34:56")
         self.assertEqual(text, "")
 
+   # Otestujem riadok s viacerymi medzerami medzi casom a textom
+    def test_line_with_multiple_spaces(self):
+        line = "12:34:56    configuration for relay"
+        time, text = split_line_to_time_and_text(line)
+        self.assertEqual(time, "12:34:56")
+        self.assertEqual(text, "configuration for relay")
+
 
 if __name__ == '__main__':
     unittest.main()
