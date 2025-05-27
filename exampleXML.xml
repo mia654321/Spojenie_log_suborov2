@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+    <network>
+        <interface name="eth0">
+            <ip>192.168.0.10</ip>
+            <mask>255.255.255.0</mask>
+			<status>disabled</status>
+        </interface>
+        <interface name="wlan0">
+            <ip>192.168.1.10</ip>
+            <mask>255.255.255.0</mask>
+			<status>disabled</status>
+        </interface>
+		<interface name="wlan1">
+            <ip>192.168.1.11</ip>
+            <mask>255.255.255.0</mask>
+        </interface>
+    <gateway>192.168.0.1</gateway></network>
+    <servers>
+        <server ip="10.0.0.1" name="primary" />
+        <server ip="10.0.0.2" name="secondary" />
+    </servers>
+    <logging>
+        <level>DEBUG</level>
+    </logging>
+</configuration>

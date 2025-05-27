@@ -2,7 +2,10 @@ import sys
 import xml.etree.ElementTree as ET
 
 def update_interface_statuses(tree):
-    """Aktualizuje alebo pridá <status> s hodnotou 'enabled' pre každý <interface>."""
+    """
+    Aktualizuje alebo pridá <status> s hodnotou 'enabled' pre každý
+    <interface>.
+    """
     root = tree.getroot()
     network = root.find('network')
     if network is not None:
